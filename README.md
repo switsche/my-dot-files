@@ -6,4 +6,7 @@ Uses the method described here https://news.ycombinator.com/item?id=11070797
 
 Use the following command in an empty home directory to use the dot files.
 
-git clone --separate-git-dir=~/.cfg https://github.com/switsche/my-dot-files/ ~
+```bash
+git clone --separate-git-dir=$HOME/.my-dot-files https://github.com/switsche/my-dot-files/ $HOME/my-dot-files
+. $HOME/.bashrc
+```
