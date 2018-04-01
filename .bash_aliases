@@ -10,4 +10,4 @@ alias psgrep="ps auwx|grep "
 # Alias to manage dotfiles in a Git repository
 # Taken from https://news.ycombinator.com/item?id=11070797
 #
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias dot-files='/usr/bin/git --git-dir=$HOME/.my-dot-files/ --work-tree=$HOME'
