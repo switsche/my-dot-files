@@ -8,5 +8,7 @@ Use the following command in an empty home directory to use the dot files.
 
 ```bash
 git clone --separate-git-dir=$HOME/.my-dot-files https://github.com/switsche/my-dot-files/ $HOME/my-dot-files
+rsync --recursive --verbose --exclude '.git' my-dot-files/ $HOME/
 . $HOME/.bashrc
+rm -rf my-dot-files
 ```
